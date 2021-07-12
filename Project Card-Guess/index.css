@@ -1,0 +1,74 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: segoe UI;
+    background: linear-gradient(rgba(40, 37, 204, 0.76), rgba(218, 7, 7, 0.7));
+}
+
+
+.container{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    margin-left: 10%;
+}
+
+
+.padd{
+    padding: 20px;
+}
+
+.header{
+    height: 50px;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.cards{
+    width: 100%;
+    /* background-color: lightgray; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+
+.opened{
+    display: none;
+}
+
+
+
+
+
+.card{
+    height: 260px;
+    width: 16%;
+    /* background-color: red; */
+    margin: 10px;
+    background-size: cover;
+    border: 2px solid black;
+    transition: .5s;
+}
+
+.overlay{
+    height: 260px;
+    width: 100%;
+    background-color: gray;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-7px);
+}
+
+
+
+
